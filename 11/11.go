@@ -52,7 +52,7 @@ func main() {
 		fmt.Println("Некорректная длина.")
 		return
 	}
-	
+
 	fmt.Print("Введите длину массива B: ")
 	if !scanner.Scan() {
 		fmt.Println("Ошибка ввода.")
