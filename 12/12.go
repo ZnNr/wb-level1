@@ -22,7 +22,7 @@ func main() {
 	for _, str := range strings {
 		set[str] = struct{}{} // Добавляем строку в множество
 	}
-
+	//красивый вывод в скобочках
 	fmt.Print("Элементы множества: {")
 
 	keys := make([]string, 0, len(set))
